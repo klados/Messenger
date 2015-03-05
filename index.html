@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<title> Messenger</title>
+<link rel="stylesheet"  href="http://snf-537850.vm.okeanos.grnet.gr/messenger/style.css"/>
+</head>
+
+<body>
+
+<h1>  #ShowMeYourChat </h1>
+
+<div id="login">
+<br>
+<h2>Welcome to our live chat</h2>
+	<form id="login_form" >
+		Give a username: <input id="login_text" autofocus></input>
+		<input id="login_submit" type="submit" value="ok"></input>
+	</form>
+	<div id="notify"></div>
+</div>
+
+<div id="main">
+
+<div id="right_side">
+  <h2>online users</h2>
+ 	 <ol id="user_list">
+  	</ol>
+
+</div>
+
+
+<div id="left_side">
+	<div id="chat_title">Chat area :)</div>
+  <div id="chat">
+  <ul id='chatMessages'></ul>  
+  </div>
+
+<div id='typing_info'>  </div>
+
+  <form id="send-message">
+	   <input id="message" placeholder="type a message"  autocomplete="off"></input>
+	   <input id="message_submit" type="submit" value="send" ></input>
+  </form>
+<br>
+</div>
+
+</div>
+
+
+<script src="http://snf-537850.vm.okeanos.grnet.gr/messenger/functions.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="http://snf-537850.vm.okeanos.grnet.gr/messenger/index.js"></script>
+
+
+<audio  id="chatNotification">
+<source src="http://snf-537850.vm.okeanos.grnet.gr/messenger/notification.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+
+</html>

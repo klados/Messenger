@@ -1,0 +1,91 @@
+body{
+	background-color:#C0C4C7;
+	/*background-image: url("http://snf-537850.vm.okeanos.grnet.gr/messenger/background_image.jpg");	*/
+	background-repeat:no-repeat;
+}
+
+h1{
+	text-align: center;
+}
+
+#login{
+	text-align: center;
+}
+
+#login form{
+	margin-top:5%;
+}
+
+#notify{
+	color:red;
+}
+
+#username{
+	margin-bottom: 5%;
+}
+
+#right_side{
+	float: right;
+	margin-right: 25%;
+}
+
+#user_list{
+	background-color: #FF9933;
+	max-height:300px;
+	overflow-y:auto;	
+}
+
+#left_side{
+	
+}
+
+#chat_title{
+	color:red;
+	font-size: 25px;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+.color_text{
+	color:#33CC33;
+}
+
+#chat{		
+	max-height:500px;
+	overflow-y:auto;
+	max-width:500px;
+	height:500px;
+	
+	margin-bottom: 2%;
+	background-color:#808080;
+	border:1px solid #000;	
+}
+
+#chatMessages{
+	list-style-type: none;
+	/*για να φορτώσω μποστά από το όνομα μια photo*/
+	/*background-image: url("unknown_user_icon.jpg");
+	background-repeat: no-repeat;
+	background-position: 0px 2px;*/
+	padding-left: 10px;  
+}
+
+#message{
+	height: 20px;
+	font-size: 18px;
+}
+
+#typing_info{
+margin-top:1%;
+margin-bottom: 1%;	
+margin-left:2%;
+height: 16px;
+font-size: 14px;
+color:red;
+}
+
+#send-message{ /*input field,submit button */
+	margin-left: 2%;
+}
+
