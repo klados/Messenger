@@ -4,14 +4,16 @@ messenger created with node.js express.js  socket.io
 
 #What is this?
 * That is a public open source chat !!!
-* You can found the app here
+* You can found the app [here](http://snf-537850.vm.okeanos.grnet.gr:8000/messenger)
 
 #How to run it to my computer?
-*First of all install the npm and all the dependences like [node.js](http://nodejs.org/) express.js (npm install express.js) and socket.io (npm install socket.io)
-*Go to the terminal and type: node app.js 
-*Open a browser and type at the url: http://localhost:8000/messenger
+* First of all install the npm and all the dependences like [node.js](http://nodejs.org/) [express.js](http://expressjs.com/) (npm install express.js) and [socket.io](http://socket.io/) (npm install socket.io)
 
-![Image](http://snf-537850.vm.okeanos.grnet.gr/Screenshot%20from%202014-10-08%2023:05:31.png)
+* Go to the terminal and type: ``` node app.js ```
+
+* Open a browser and type at the url:  http://localhost:8000/messenger
+
+![Image]()
 
 ### GPL License
 
