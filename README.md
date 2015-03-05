@@ -13,7 +13,7 @@ messenger created with node.js express.js  socket.io
 
 * Open a browser and type at the url:  http://localhost:8000/messenger
 
-![Image]()
+![Image](http://snf-537850.vm.okeanos.grnet.gr/snapshot2.png)
 
 ### GPL License
 
